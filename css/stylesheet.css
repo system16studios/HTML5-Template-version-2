@@ -1,0 +1,176 @@
+/*--------[Global Settings]----------*/
+.home{
+	background: #ff8300;
+	margin-top: 10px;
+	}
+/*this effect gives the black border around document*/	
+#main {
+	width: 960px;
+	margin: 10px auto;
+	border: 7px solid #000;
+	border-radius: 15px;
+	}
+.body{
+	background: #000;
+	width: 960px;
+	margin: auto;
+	}
+#top, #heaader, #center, #bottom, #footer{
+	display: block;
+	overflow: hidden;
+	}
+p {
+	font-size: 14px;
+	line-height: 22px;
+	font-style: normal;
+	text-align: left;
+	margin: 0;
+	color: #54412B;
+	padding-left: 15px;
+	font-family: Cambria, Georgia, serif;
+	}
+hr {
+	clear: both;
+	}
+/*--------[End Global Settings]--------*/
+/*--------[<section id="top">]--------*/	
+#top{
+	background: #fff;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	height: 250px;
+	}	
+#top nav{
+	margin: 30px auto;
+	position: relative;
+	display: inline;
+	z-index: 10;
+	}
+#top nav h1{
+	width: 60px;
+	height: 15px;
+	float: left;
+	position: relative;
+	margin: 10px 8px;
+	padding: 10px 10px;
+	background: #ff8300;
+	border-radius: 10px;
+	line-height: 15px;
+	text-align: center;
+	text-decoration: none;
+	border: 5px solid #000; 
+	font-family: helvetica,cambria, arial, serif;
+	font-weight: bold;
+	font-size: 14px;
+	color: #000;
+	box-shadow: 0px 2px 2px rgba(2,2,2,0.6);
+	}
+#top nav h1:hover {
+	background: #ff8300;
+	border: 5px solid #fff;
+	color: #fff;
+	}
+#top hr {
+	z-index: 1;
+	height: 12px;
+	width: 50%;
+	float: left;
+	background: #000;
+	margin-top: -38px;
+	}
+/*--------[</section>]--------*/
+/*--------[<section id="center">]--------*/
+#center {
+	overflow: hidden;
+	background: #fff;
+	padding-left: 0px;
+	}
+/*left div */
+/*change the id name to your choosing*/
+#demo{
+	width: 65%;
+	height: auto;
+	position: relative;
+	float: left;
+	padding: 10px;
+	margin:0 5px 5px 0;
+	background: #fff;
+	overflow: hidden;
+	}
+#demo h3 {
+	width: 97%;
+	clear: both;
+	padding: 5px 10px;
+	border-top: 3px solid #000;
+	border-bottom: 3px solid #000;
+	}
+/*right div*/
+/*change the id name to your choosing*/
+#demo2 {
+	width: 30%;
+	height: auto;
+	position: relative;
+	padding: 5px 7px 5px 2px;
+	z-index: 100;
+	float: left;
+	border: 0px solid #000;
+	margin-right: -11px;
+	background: #ff8300;
+	box-shadow: 0px 2px 2px rgba(2,2,24,0.7);
+	border-radius: 10px;
+	}
+#demo2 h3 {
+	width: 100%;
+	margin: 7px 0 10px 18px;
+	color: #000;
+	font-family: cambria, helveica, arial, serif;
+	line-height: 20px;
+	padding: 3px 10px 15px;
+	border-bottom: 5px solid #fff;
+	}	
+#demo2 ul{
+	margin: 10px;
+	padding: 10px;
+	position: relative;
+	}
+#demo2 ul li{
+	padding: 5px 10px;
+	margin: 5px 10px 2px 10px;
+	background: #ff8300;
+	color: #000;
+	list-style-type: none;
+	text-decoration: none;
+	}
+#demo2 a {
+	color: #000;
+	line-height: 20px;
+	font-family: cambria, helvetica, serif, arial;
+	text-decoration: none;
+	font-weight: 700;
+	}
+#demo2 a:hover {
+	color: #fff;
+	}
+
+
+/*--------[</section>]--------*/
+/*--------[<section id="bottom">]--------*/
+
+
+/*--------[</section>]--------*/
+/*--------[<section id="credits">]--------*/
+#credits {
+	height: 35px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	background: #fff;
+	}
+#credits p {
+	color: #000;
+	font-family: helvetica, cambria, serif;
+	text-align: center;
+	font-Size: 14px;
+	line-height: 30px;
+	padding-top: 5px;
+	}
+/*--------[</section>]--------*/

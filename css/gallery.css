@@ -1,0 +1,74 @@
+figure {
+	background: #E0DEDE;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#E0DEDE', endColorstr='#ffffff'); /* for IE */
+	background: -webkit-gradient(linear, left top, left bottom, from(#E0DEDE), to(#ffffff)); /* for webkit browsers */
+	background: -moz-linear-gradient(top,  #E0DEDE,  #ffffff); /* for firefox 3.6+ */ 
+	width: 120px;
+	position: relative;
+	margin: 15px 10px;
+	padding: 2px;
+	border: 3px solid transparent;
+	box-shadow: 0px 3px 3px rgba(0,0,0,0.5);
+	display: inline;
+	float: left;
+	cursor: pointer;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	}
+
+figure:hover {
+	background: #E0DEDE;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF8300', endColorstr='#ffffff'); /* for IE */
+	background: -webkit-gradient(linear, left top, left bottom, from(#FF8300), to(#ffffff)); /* for webkit browsers */
+	background: -moz-linear-gradient(top,  #FF8300,  #ffffff); /* for firefox 3.6+ */	
+	border: 3px solid #000;
+	}
+/*image inside the figure tag*/	
+.thumb {
+	width: 100px;
+	position: inherent;
+	margin: 10px;
+	border: none;
+	}
+/*this is the lightbox effect*/	
+.lightbox {
+	width: 0;
+	height: 0;
+	position: fixed;
+	overflow: hidden;
+	left: 0;
+	top: 0;
+	z-index: 9999;
+	text-align: center;
+	background: rgba(0,0,0,0.7);
+	} 
+	.lightbox img	{
+		width: 500px;
+		opacity: 0;
+		padding: 10px;
+		background: #ffffff;
+		margin-top: 60px;
+		-webkit-box-shadow: 0px 0px 15px #444;
+		-moz-box-shadow: 0px 0px 15px #444;	
+		box-shadow: 0px 0px 15px #444;	
+		-moz-transition: opacity .25s ease-in-out;
+		-webkit-transition: opacity .25s ease-in-out;
+		transition: opacity .25s ease-in-out;		
+		} 
+.lightbox:target {
+	width: auto;
+	height: auto;
+	bottom: 0;
+	right: 0;
+	} 
+	.lightbox:target img {
+		opacity: 1;
+		}
+/*this id ois optional,  it was included to give some space between the blocks.  remove when using the template */		
+#whitespace {
+	height: 30px;
+	position: relative;
+	float: left;
+	clear: both;
+	}		
